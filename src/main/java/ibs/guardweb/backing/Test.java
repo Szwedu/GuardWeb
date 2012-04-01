@@ -5,13 +5,12 @@
 package ibs.guardweb.backing;
 
 import javax.faces.bean.ManagedBean;
-import javax.inject.Named;
 
 /**
  *
  * @author adr_pk
  */
-@Named
+@ManagedBean(name="test")
 public class Test {
     private String str = "Hello!!";
 
